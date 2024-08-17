@@ -29,7 +29,7 @@ const SinglePage = async ({ params }: { params: { slug: string } }) => {
       {/* TEXTS */}
       <div className="w-full lg:w-1/2 flex flex-col gap-6">
         <h1 className="text-4xl font-medium">{product.name}</h1>
-          {product.description}
+{/*           {product.description} */}
         <div className="h-[2px] bg-gray-100" />
         {product.price?.price === product.price?.discountedPrice ? (
           <h2 className="font-medium text-2xl">{product.price?.price} Ar</h2>
